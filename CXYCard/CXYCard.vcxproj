@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{05DBF6BE-B2DE-4521-B3D7-EF54034DAA45}</ProjectGuid>
+    <RootNamespace>CXYCard</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AS.h" />
+    <ClInclude Include="ComAutoInit.h" />
+    <ClInclude Include="CXYCard.h" />
+    <ClInclude Include="CXYCardDlg.h" />
+    <ClInclude Include="Deng.h" />
+    <ClInclude Include="GCustomerList.h" />
+    <ClInclude Include="GCustomert.h" />
+    <ClInclude Include="OLDDlg.h" />
+    <ClInclude Include="PictureEx.h" />
+    <ClInclude Include="Read.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TextSpeaker.h" />
+    <ClInclude Include="TJYH.h" />
+    <ClInclude Include="YeList.h" />
+    <ClInclude Include="Yewu.h" />
+    <ClInclude Include="Yewudg.h" />
+    <ClInclude Include="YeWugl.h" />
+    <ClInclude Include="YWYMT.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AS.cpp" />
+    <ClCompile Include="CXYCard.cpp" />
+    <ClCompile Include="CXYCardDlg.cpp" />
+    <ClCompile Include="Deng.cpp" />
+    <ClCompile Include="GCustomerList.cpp" />
+    <ClCompile Include="GCustomert.cpp" />
+    <ClCompile Include="OLDDlg.cpp" />
+    <ClCompile Include="PictureEx.cpp" />
+    <ClCompile Include="Read.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TJYH.cpp" />
+    <ClCompile Include="YeList.cpp" />
+    <ClCompile Include="Yewu.cpp" />
+    <ClCompile Include="Yewudg.cpp" />
+    <ClCompile Include="YeWugl.cpp" />
+    <ClCompile Include="YWYMT.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CXYCard.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="res\CXYCard.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\CYK.ico" />
+    <Image Include="..\..\MFCApplication1\MFCApplication1\res\Toolbar256.bmp" />
+    <Image Include="..\..\versioncue cs2.ico" />
+    <Image Include="C:\Users\ludashen\Desktop\del.ico" />
+    <Image Include="res\beif.ico" />
+    <Image Include="res\bg.bmp" />
+    <Image Include="res\bg.png" />
+    <Image Include="res\bg2.bmp" />
+    <Image Include="res\bg3.bmp" />
+    <Image Include="res\bg7.bmp" />
+    <Image Include="res\bgl.bmp" />
+    <Image Include="res\bgl.gif" />
+    <Image Include="res\bgl.png" />
+    <Image Include="res\bitmap4.bmp" />
+    <Image Include="res\bmp00001.bmp" />
+    <Image Include="res\Cool Blues.bmp" />
+    <Image Include="res\Cool Blues.ico" />
+    <Image Include="res\CXYCard.ico" />
+    <Image Include="res\CYK.ico" />
+    <Image Include="res\del.ico" />
+    <Image Include="res\dl.gif" />
+    <Image Include="res\dl2.gif" />
+    <Image Include="res\dlgb.gif" />
+    <Image Include="res\help.ico" />
+    <Image Include="res\new.ico" />
+    <Image Include="res\open.ico" />
+    <Image Include="res\person.ico" />
+    <Image Include="res\re.ico" />
+    <Image Include="res\tongj.ico" />
+    <Image Include="res\toolbar1.bmp" />
+    <Image Include="res\toolbar2.bmp" />
+    <Image Include="res\toolbar3.bmp" />
+    <Image Include="res\welcome.bmp" />
+    <Image Include="res\wzry.gif" />
+    <Image Include="res\x.ico" />
+    <Image Include="res\zuixiaohua1.ico" />
+    <Image Include="\CXYCard\res\toolbar1.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="CXYCard.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

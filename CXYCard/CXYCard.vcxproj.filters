@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CXYCard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CXYCardDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GCustomert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GCustomerList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TJYH.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Deng.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Yewu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Yewudg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YeList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YeWugl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YWYMT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OLDDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ComAutoInit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TextSpeaker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Read.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CXYCard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CXYCardDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GCustomert.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GCustomerList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TJYH.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Deng.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Yewu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Yewudg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YeList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YeWugl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YWYMT.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OLDDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureEx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Read.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CXYCard.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\CXYCard.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\CXYCard.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\versioncue cs2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\CYK.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\CYK.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\MFCApplication1\MFCApplication1\res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="\CXYCard\res\toolbar1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\toolbar2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\toolbar3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="C:\Users\ludashen\Desktop\del.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\new.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\person.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\open.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\beif.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\re.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\tongj.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\help.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bg.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\del.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\welcome.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bg.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bg2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\dlgb.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\dl.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\dl2.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\wzry.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bgl.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bgl.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bgl.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bg3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Cool Blues.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\x.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\zuixiaohua1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Cool Blues.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bg7.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

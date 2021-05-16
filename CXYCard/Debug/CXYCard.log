@@ -1,0 +1,10 @@
+﻿  CXYCard.cpp
+D:\Windows Kits\10\Include\10.0.18362.0\um\sphelper.h(1319,13): error C4996: 'GetVersionExW': 被声明为已否决
+  CXYCardDlg.cpp
+D:\Windows Kits\10\Include\10.0.18362.0\um\sphelper.h(1319,13): error C4996: 'GetVersionExW': 被声明为已否决
+  Deng.cpp
+  Read.cpp
+D:\Windows Kits\10\Include\10.0.18362.0\um\sphelper.h(1319,13): error C4996: 'GetVersionExW': 被声明为已否决
+  TJYH.cpp
+  YWYMT.cpp
+  正在生成代码...
